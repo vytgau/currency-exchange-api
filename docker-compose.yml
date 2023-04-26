@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  currency-exchange-api:
+    image: currency-exchange-api
+    container_name: "currency-exchange-api"
+    ports:
+      - 8080:8080
